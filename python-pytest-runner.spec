@@ -1,7 +1,7 @@
 Summary:	Python testsuite framework
 Name:		python-pytest-runner
 Version:	5.3.1
-Release:	1
+Release:	2
 Group:		Development/Python
 License:	MIT
 Url:		https://pypi.org/project/pytest-runner/#files
