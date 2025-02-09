@@ -1,11 +1,11 @@
 Summary:	Python testsuite framework
 Name:		python-pytest-runner
-Version:	5.3.1
-Release:	2
+Version:	6.0.1
+Release:	1
 Group:		Development/Python
 License:	MIT
 Url:		https://pypi.org/project/pytest-runner/#files
-Source0:	https://files.pythonhosted.org/packages/2a/04/c3223812b3427ffa95110c5781eae7fe8bc3e9e1fe4e2328bee17b9e5820/pytest-runner-5.3.1.tar.gz
+Source0:	https://files.pythonhosted.org/packages/source/p/pytest-runner/pytest-runner-%{version}.tar.gz
 BuildRequires:	pkgconfig(python)
 BuildRequires:	python3dist(setuptools)
 BuildRequires:	python-setuptools_scm
@@ -25,4 +25,4 @@ Python testsuite framework.
 
 %files
 %{py_puresitedir}/pytest_runner*
-%{py_puresitedir}/ptr.py
+%{py_puresitedir}/ptr
