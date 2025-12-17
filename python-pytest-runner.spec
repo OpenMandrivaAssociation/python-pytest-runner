@@ -7,7 +7,8 @@ License:	MIT
 Url:		https://pypi.org/project/pytest-runner/#files
 Source0:	https://files.pythonhosted.org/packages/source/p/pytest-runner/pytest-runner-%{version}.tar.gz
 BuildRequires:	pkgconfig(python)
-BuildRequires:	python3dist(setuptools)
+BuildRequires:	python%{pyver}dist(setuptools)
+BuildRequires:  python%{pyver}dist(pip)
 BuildRequires:	python-setuptools_scm
 BuildArch:	noarch
 
